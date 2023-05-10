@@ -2,10 +2,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
 @app.route("/")
-def page():
-    return render_template("main.html")
-
+def textEditor():
+    return render_template("textEditor.html")
 
 app.run(debug=True)
