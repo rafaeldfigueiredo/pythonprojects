@@ -1,10 +1,26 @@
-body{
+html,body{
+    margin: 0;
+    height: 100%;
+}
+body {
     border: 1px solid black;
     display: grid;
     place-items: center;
+    background: linear-gradient(to right top, white,yellow,white) no-repeat;
 }
-.styleButton{
+h1{
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
+.styleButton {
     border: 1px solid black;
     padding: 10px;
     background-color: white;
+    transition: 0.2s linear;
+}
+
+.styleButton:hover {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
 }
