@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="static/css/default.css">
-    </head>
-    <body>
-        <main id="main">
-            <table>
-                <tr>
-                  <td>B</td>
-                </tr>
-                <tr>
-                   
-                  <td>b</td>
-                </tr>
-                <tr>
-                   
-                  <td>c</td>
-                </tr>
-              </table> 
-        </main>
-    </body>
+
+<head>
+    <link rel="stylesheet" href="static/css/default.css">
+    <script src="../static/js/app.js" defer></script>
+</head>
+
+<body>
+    <h1>Editor de Texto</h1>
+
+    <nav>
+        <b class="styleButton" onclick="myFunc()">B</b>
+        <i class="styleButton" onclick="myFunc()">I</i>
+        <u class="styleButton" onclick="myFunc()">U</u>
+    </nav>
+
+    <textarea name="editor" cols="50" rows="10" placeholder="Digite aqui...">
+    </textarea>
+
+    <button>Salvar</button>
+</body>
+
 </html>
