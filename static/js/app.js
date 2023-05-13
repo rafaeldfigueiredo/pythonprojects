@@ -1,15 +1,13 @@
+let textArea = document.querySelector('#textArea');
+
 function boldIt() {
-    if (document.querySelector('.bold').onclick) {
-        if (document.querySelector('textArea').onselect)  {
-            document.querySelector('textArea').style.fontWeight = 'bold';
-        }
-    }
+    textArea.setAttribute("style", "font-weight: bold");
 }
 
 function italicIt() {
-    document.querySelector('textArea').style.fontStyle = 'italic';
+    textArea.setAttribute("style", "font-style: italic");
 }
 
 function underlineIt() {
-    document.querySelector('textArea').style.textDecoration = 'underline';
+    textArea.setAttribute("style", "text-decoration: underline");
 }
