@@ -4,10 +4,12 @@ let italicButton = document.querySelector('.italic');
 let underlineButton = document.querySelector('underline');
 
 function italicIt() {
-    if (textArea.setAttribute("style", "font-style: italic")) {
+    if (!textArea.getAttribute("style", "font-style: italic")) {
         textArea.setAttribute("style", "font-style: italic");
     }
 }
 function underlineIt() {
-    textArea.setAttribute("style", "text-decoration: underline");
+    if (!textArea.setAttribute("style", "text-decoration: underline")) {
+        textArea.setAttribute("style", "text-decoration: underline");
+}
 }
