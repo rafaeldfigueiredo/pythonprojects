@@ -1,15 +1,14 @@
 let textArea = document.querySelector('#textArea');
-let boldButton = document.querySelector('.bold');
-let italicButton = document.querySelector('.italic');
-let underlineButton = document.querySelector('underline');
+let selected = document.getSelection.toString();
+
+function boldIt() {
+    textArea.style.fontWeight == "bold" ? textArea.style.fontWeight = "normal" : textArea.style.fontWeight = "bold"
+}
 
 function italicIt() {
-    if (!textArea.getAttribute("style", "font-style: italic")) {
-        textArea.setAttribute("style", "font-style: italic");
-    }
+    textArea.style.fontStyle == "italic" ? textArea.style.fontStyle = "normal" : textArea.style.fontStyle = "italic"
 }
+
 function underlineIt() {
-    if (!textArea.setAttribute("style", "text-decoration: underline")) {
-        textArea.setAttribute("style", "text-decoration: underline");
-}
+    textArea.style.textDecorationLine == "underline" ? textArea.style.textDecorationLine = "normal" : textArea.style.textDecorationLine = "underline";
 }
