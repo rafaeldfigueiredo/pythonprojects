@@ -5,5 +5,4 @@ app = Flask(__name__)
 @app.route("/")
 def textEditor():
     return render_template("textEditor.html")
-
-app.run(debug=True)
+app.run(debug=True) 
