@@ -1,7 +1,7 @@
 let textArea = document.querySelector('#textArea');
-let boldButton = document.querySelector('.bold');
-let italicButton = document.querySelector('.italic');
-let underlineButton = document.querySelector('.underline')
+let boldButton = document.querySelector('#bold');
+let italicButton = document.querySelector('#italic');
+let underlineButton = document.querySelector('#underline')
 var selected = textArea.value.substring(textArea.selectionStart, textArea.selectionEnd);
 
 function boldIt() {

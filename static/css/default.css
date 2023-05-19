@@ -29,8 +29,13 @@ h1 {
     border: 2px solid white;
 }
 
-button{
+textarea{
+    border: 3px dotted blue;
+}
+
+#nextButton{
     background-color: green;
     color: white;
     border-radius: 45%;
+    padding:10px
 }
