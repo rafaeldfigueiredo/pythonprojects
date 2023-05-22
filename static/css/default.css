@@ -10,30 +10,12 @@ body {
     background: linear-gradient(to right top, white,yellow,white) no-repeat;
 }
 
-h1 {
+.title {
     color: white;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.styleButton {
-    border: 1px solid black;
-    padding: 10px;
-    background-color: white;
-    transition: 0.2s linear;
-}
-
-.styleButton:hover {
-    cursor: pointer;
-    background-color: red;
-    color: white;
-    border: 2px solid white;
-}
-
-textarea{
-    border: 3px dotted blue;
-}
-
-#nextButton{
+.nextButton {
     background-color: green;
     color: white;
     border-radius: 45%;
