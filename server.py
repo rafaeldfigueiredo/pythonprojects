@@ -4,9 +4,9 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/landpage")
-def landPage():
-    return render_template("landpage.html")
+@app.route("/portfolio")
+def portfolio():
+    return render_template("portfolio.html")
 
 
 @app.route("/textEditor")
